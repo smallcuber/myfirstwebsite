@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8fcb87d4-9c77-45c1-9aee-4a5ff87be829}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|PythonCore|3.6</InterpreterId>
+    <PublishUrl>C:\Users\Wenda\myfirstwebsite\</PublishUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="files\admin.py" />
+    <Compile Include="files\apps.py" />
+    <Compile Include="files\migrations\__init__.py" />
+    <Compile Include="files\models.py" />
+    <Compile Include="files\tests.py" />
+    <Compile Include="files\views.py" />
+    <Compile Include="files\__init__.py" />
+    <Compile Include="manage.py" />
+    <Compile Include="music\admin.py" />
+    <Compile Include="music\apps.py" />
+    <Compile Include="music\forms.py" />
+    <Compile Include="music\migrations\0001_initial.py" />
+    <Compile Include="music\migrations\0002_auto_20171013_1348.py" />
+    <Compile Include="music\migrations\0003_auto_20171231_1433.py" />
+    <Compile Include="music\migrations\__init__.py" />
+    <Compile Include="music\models.py" />
+    <Compile Include="music\tests.py" />
+    <Compile Include="music\urls.py" />
+    <Compile Include="music\views.py" />
+    <Compile Include="music\__init__.py" />
+    <Compile Include="myfirstwebsite\settings.py" />
+    <Compile Include="myfirstwebsite\urls.py" />
+    <Compile Include="myfirstwebsite\wsgi.py" />
+    <Compile Include="myfirstwebsite\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="media\Ed6y-8_zqJmHgl0G9Lq9n-4F0a4n949IB_hfSC9btrU.jpg" />
+    <Content Include="media\xydgSCr7.jpg" />
+    <Content Include="music\static\music\images\plain-white-background.png" />
+    <Content Include="music\static\music\images\White-christmas-light-background.png" />
+    <Content Include="music\static\music\song_player\css\style.css" />
+    <Content Include="music\static\music\song_player\js\index.js" />
+    <Content Include="music\static\music\style.css" />
+    <Content Include="music\templates\music\album_form.html" />
+    <Content Include="music\templates\music\base.html" />
+    <Content Include="music\templates\music\detail.html" />
+    <Content Include="music\templates\music\form-template.html" />
+    <Content Include="music\templates\music\index.html" />
+    <Content Include="music\templates\music\login.html" />
+    <Content Include="music\templates\music\logout.html" />
+    <Content Include="music\templates\music\registration_form.html" />
+    <Content Include="music\templates\music\song_form.html" />
+    <Content Include="music\templates\music\song_player.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="files" />
+    <Folder Include="files\migrations" />
+    <Folder Include="media" />
+    <Folder Include="music" />
+    <Folder Include="music\migrations" />
+    <Folder Include="music\static\" />
+    <Folder Include="music\static\music" />
+    <Folder Include="music\static\music\images" />
+    <Folder Include="music\static\music\song_player\" />
+    <Folder Include="music\static\music\song_player\css" />
+    <Folder Include="music\static\music\song_player\js" />
+    <Folder Include="music\templates\" />
+    <Folder Include="music\templates\music" />
+    <Folder Include="myfirstwebsite" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.6" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
